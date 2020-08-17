@@ -9,6 +9,7 @@ Passcrack is a simple tool used to generate wordlists from a person's Facebook l
 - The program then uses this information to generate related information, such as the person's Greek and Chinese Zodiac sign, the day of the week they were born and their current age.
 - These words are then used to generate different spelling variants- all upper case, all lower case, reversed and **leetspeak**.
 - The program combines all the above information into a list of words. You then have the option of creating two different wordlists- one which only uses the information you entered about the person (~ 5 million) and one which also uses the rockyou.txt passwords ( ~ 50 million), which can take signifcantly longer to compute. The word list you choose is printed out to a text file in the same directory, and each password is checked against `password.zip`, a zip file you can encrypt with a password.
+- The wordlists are created using permutations of length 1, 2 and 3, along with cartesian products.
 
 
 ## Requirements
