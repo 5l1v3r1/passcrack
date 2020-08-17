@@ -21,4 +21,4 @@ Passcrack is a simple tool used to generate wordlists from a person's Facebook l
 
 1. Download `rockyou.txt` <a href="https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt">here</a>. This text file contains over 14 million compromised passwords from the site RockYou, and is over 100 MB, so I can't upload it here. Place this file in the passcrack directory.
 
-2. Encrypt the file `password.txt` in a zip file using the command `zip -e password.zip password.txt`. `password.txt` serves no other purpose other than giving you a file which we can encrypt in a zip file using a password of your choice.
+2. Encrypt the file `password.txt` in a zip file using the command `zip -e password.zip password.txt` once you are inside the passcrack directory. `password.txt` serves no other purpose other than giving you a file which we can encrypt in a zip file using a password of your choice.
